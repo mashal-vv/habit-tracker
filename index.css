@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(241, 187, 106);
+}
+
+.habit {
+  width: 80%;
+  background-color: rgba(222, 184, 135, 0.514);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h3, form {
+    text-align: center;
+}
