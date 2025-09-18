@@ -1,13 +1,14 @@
 body {
     background-image: url("./images/116398-abstract-dark-blue-blurred-bokeh-background-design.jpg");
+    padding-top: 20px;
 }
 
 .habit-box {
-  width: 80%;
-  background-color: rgba(191, 144, 83, 0.514);
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
+  width: 70%;
+  background-color: rgba(19, 85, 226, 0.322);
+  margin: auto;
+  padding: 15px;
+  border-radius: 15%;
 }
 
 .habit {
@@ -15,8 +16,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.habit input, .habit label {
+  margin-top: 15px;
+}
 .habit input {
   text-align: left;
   width: 10%;
@@ -29,4 +35,9 @@ body {
 
 h1, h3 {
     text-align: center;
+    color: white;
+}
+
+footer {
+  color: white;
 }

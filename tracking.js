@@ -1,4 +1,4 @@
-let habit = ["typing", "leetcode", "exercise", "duolingo", "Snakify", "Git", "html"];
+let habit = ["typing", "leetcode", "exercise", "duolingo", "Snakify", "Git", "html", "linkedin", "internship"];
 const currentDate = new Date();
 let today = currentDate.toDateString();
 let savedDate = localStorage.getItem("savedDate");
